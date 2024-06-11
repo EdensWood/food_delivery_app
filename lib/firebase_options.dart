@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:food_delivery_app/utils/key.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -50,7 +51,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA6rneWPlFjLRVVL-dfbkpfuH-WKS_nUMw',
+    apiKey: API_KEY,
     appId: '1:109927698631:android:17e80ad093814e81096ee2',
     messagingSenderId: '109927698631',
     projectId: 'fooddelapp-b4e83',
